@@ -1,43 +1,58 @@
 <!DOCTYPE html>
-<html lang="fa">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Olymp</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap"
-      rel="stylesheet"
-    />
-    <style>
-      body {
-        margin: 0;
-        padding: 0;
-        background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-        color: white;
-        font-family: 'Orbitron', sans-serif;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-        text-align: center;
-      }
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>کپی صفحه اصلی - OlympTrade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">OlympTrade</div>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="#">خانه</a></li>
+                    <li><a href="#">آموزش</a></li>
+                    <li><a href="#">پشتیبانی</a></li>
+                    <li><a href="#">وارد شوید</a></li>
+                    <li><a href="#" class="signup-btn">ثبت نام</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-      .logo {
-        font-size: 60px;
-        font-weight: bold;
-        margin-bottom: 30px;
-        text-shadow: 0 0 10px #00c3ff, 0 0 20px #00c3ff;
-      }
+    <section class="hero">
+        <div class="container">
+            <h1>شروع تجارت با OlympTrade</h1>
+            <p>آموزش، ابزارها و پشتیبانی کامل برای موفقیت شما</p>
+            <a href="#" class="cta-btn">همین حالا شروع کنید</a>
+        </div>
+    </section>
 
-      img {
-        max-width: 400px;
-        border-radius: 20px;
-        box-shadow: 0 0 20px rgba(0, 195, 255, 0.5);
-      }
-    </style>
-  </head>
-  <body>
-    <div class="logo">Olymp</div>
-    <img src="logo.png" alt="Olymp Image" />
-  </body>
+    <section class="features">
+        <div class="container">
+            <div class="feature-item">
+                <h2>آموزش حرفه‌ای</h2>
+                <p>آموزش کامل برای معامله‌گران تازه کار و حرفه‌ای.</p>
+            </div>
+            <div class="feature-item">
+                <h2>پشتیبانی ۲۴/۷</h2>
+                <p>پشتیبانی سریع و فارسی زبان.</p>
+            </div>
+            <div class="feature-item">
+                <h2>ابزارهای تحلیلی</h2>
+                <p>دسترسی به ابزارها و تحلیل‌های تخصصی.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 OlympTrade. تمامی حقوق محفوظ است.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
