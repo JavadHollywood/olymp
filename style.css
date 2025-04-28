@@ -1,1 +1,80 @@
+body {
+    font-family: 'Tahoma', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    direction: rtl;
+}
 
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header {
+    background: #0d47a1;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+.navigation a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-btn {
+    background: #ff6f00;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.hero {
+    background: url('hero.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.cta-btn {
+    display: inline-block;
+    background: #ff6f00;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    background: #f4f4f4;
+}
+
+.feature-item {
+    width: 30%;
+    text-align: center;
+}
+
+.footer {
+    background: #0d47a1;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+}
